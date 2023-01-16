@@ -1,11 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-/* 
- * Write a program to randomly generate N student scores (0-100). The program will
-prompt the user to enter N students and store the score in an array. Then, the program
-will display a list of score, the highest score, the lowest score and the average score.
- */
+
 public class Q1 {
     public static void main(String[] args) {
         int N;
@@ -14,7 +10,7 @@ public class Q1 {
         Scanner sc1 = new Scanner(System.in);
         Random rand = new Random();
 
-        System.out.print("Enter a number of students N: ");
+        System.out.print("Author              Title                 ");
         N = sc.nextInt();
         System.out.println("Score : ");
         for(int i = 0; i < N; i++) {
